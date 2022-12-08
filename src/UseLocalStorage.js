@@ -1,12 +1,9 @@
 import { useEffect , useState} from 'react'
 
-const PREFIX = 'code-editor'
-
 export const UseLocalStorage = (key, initialValue) => {
-    const prefixedKey = PREFIX + key;
 
     const[value, setValue] = useState(() => {
-        const jsonValue = localStorage.getItem(prefixedKey)
+        const jsonValue = localStorage.getItem(key)
         if(jsonValue != null)
         return JSON.parse(jsonValue);
 
@@ -20,6 +17,6 @@ export const UseLocalStorage = (key, initialValue) => {
 
     useEffect(() => {
         localStorage.setItem(prefixedKey, JSON.stringify(value))
-    }, [prefixedKey, value])
+    }, [key, value])
   return [value, setValue]
 }
