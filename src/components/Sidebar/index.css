@@ -1,0 +1,62 @@
+ .nav-bar{
+    background: #181818;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+.PIP{
+    width: 50px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #181818;
+    color: #ffd700;
+}
+
+.PIP:hover,
+.link:hover{
+    background: #ffd700;
+    color: #181818;
+}
+
+.link{
+  font-size: 20px;
+  width: 50px;
+  height: 40px;
+  text-decoration: none;
+  box-shadow: 1px;
+  border-radius: 5px;
+  color: #ffd700;
+  background-color: #181818;
+  border: 2px solid #020202;
+}
+
+
+.ResizablePIP{
+  margin-top: 100px;
+}
+
+.PIP_pipWindow__LIhFR {
+  background-color: #242d36;
+  z-index: 999;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.5;
+  color: rgb(248, 248, 249);
+  box-sizing: content-box;
+  box-shadow: 1px 3px 3px 0 rgb(0 0 0 / 20%), 1px 3px 15px 2px rgb(0 0 0 / 20%);
+  border-radius: 0.28571429rem;
+}
