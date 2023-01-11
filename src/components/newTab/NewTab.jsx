@@ -5,9 +5,9 @@ import './NewTab.css'
 
 const NewTab = () => {
 
-  const [html, setHtml] = UseLocalStorage("html", "");
-  const [css, setCss] = UseLocalStorage("css", "");
-  const [js, setJs] = UseLocalStorage("js", "");
+  const [html] = UseLocalStorage("html", "");
+  const [css] = UseLocalStorage("css", "");
+  const [js] = UseLocalStorage("js", "");
   const [srcDoc, setSrcDoc] = useState("");
 
  useEffect(() => {
