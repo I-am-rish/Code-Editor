@@ -76,15 +76,3 @@ body {
 .container-sm {
   max-width: 100%;
 }
-
-@media (max-width: 477px) {
-  .App{
-    position: fixed;
-    width: 400px;
-    height: 900px;
-  }
-  .pane {
-    width: 500px;
-    overflow-x: scroll;
-  }
-}
