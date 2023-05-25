@@ -24,7 +24,7 @@ const Sidebar = (props) => {
           <button className="PIP" onClick={openPIP}>
             PIP
           </button>
-          <Link className="link" to='/newtab' >Tab</Link>
+          <Link className="link" to='/newtab' target="_blank">Tab</Link>
         </div>
       </div>
 
